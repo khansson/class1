@@ -1,0 +1,17 @@
+{
+    "data": 1.234,
+    "Energy Exchange": [
+      {
+        "Method": "VHS",
+        "Species 1": "Xe",
+        "Species 2": "Xe"
+      },
+      {
+        "Angle Constant 1": -2.02,
+        "Angle Constant 2": 0.0045,
+        "Method": "YHCross",
+        "Species 1": "Xe",
+        "Species 2": "Xe+"
+      }
+    ]
+  }

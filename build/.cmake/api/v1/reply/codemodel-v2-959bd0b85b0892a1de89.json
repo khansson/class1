@@ -1,0 +1,212 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src2",
+					"jsonFile" : "directory-src2-Debug-e490be3a73b7b25cebb6.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src2",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src3",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-src3-Debug-abccd826a1064bb0945b.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src3",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src3/library",
+					"jsonFile" : "directory-src3.library-Debug-ce68cdaee42b52811cf8.json",
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src3/library",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src4",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"jsonFile" : "directory-src4-Debug-9e824b49266dffbfa29e.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src4",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "src4/library",
+					"jsonFile" : "directory-src4.library-Debug-63798cf62bf5b3fc7fd1.json",
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src4/library",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "_deps/json-build",
+					"jsonFile" : "directory-_deps.json-build-Debug-4a32a0bda2f959cc32d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "build/_deps/json-src"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "Class1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "CopyFile::@040e0136dcf7b8e1e29d",
+					"jsonFile" : "target-CopyFile-Debug-846c1ee017daad97f699.json",
+					"name" : "CopyFile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TheExecutable::@145eef247bfb46b6828c",
+					"jsonFile" : "target-TheExecutable-Debug-1faff5ce9dde9f063253.json",
+					"name" : "TheExecutable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TheFouthExecutable::@040e0136dcf7b8e1e29d",
+					"jsonFile" : "target-TheFouthExecutable-Debug-c5f44299f6662baa1a64.json",
+					"name" : "TheFouthExecutable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "TheLibrary::@8ca94bbfb3475d8d1a73",
+					"jsonFile" : "target-TheLibrary-Debug-b4830fef10124e2c1f58.json",
+					"name" : "TheLibrary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TheSecondExecutable::@8717fb318be7a065d9bf",
+					"jsonFile" : "target-TheSecondExecutable-Debug-51a50df9e2ffcdb9f107.json",
+					"name" : "TheSecondExecutable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "TheSecondLibrary::@dca34952cb31a4bc4b4c",
+					"jsonFile" : "target-TheSecondLibrary-Debug-829b9d7155c220dba91e.json",
+					"name" : "TheSecondLibrary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TheThirdExecutable::@e4ae004ac8be06c085ff",
+					"jsonFile" : "target-TheThirdExecutable-Debug-3a0fdce3b4e4560ffc58.json",
+					"name" : "TheThirdExecutable",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/khansson/Class/class1/build",
+		"source" : "/home/khansson/Class/class1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

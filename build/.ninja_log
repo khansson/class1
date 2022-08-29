@@ -1,0 +1,16 @@
+# ninja log v5
+1	6	0	src4/CMakeFiles/CopyFile	2639ba00576c44c9
+0	540	1661811306621067019	src/CMakeFiles/TheExecutable.dir/main.o	acb933e15e6e3cd1
+190	415	1661811306485066195	lib/libTheSecondLibrary.a	56964d30ee913a76
+134	415	1661811306485066195	lib/libTheLibrary.a	4c29b75cf50b90b0
+1	6	0	/home/khansson/Class/class1/build/src4/CMakeFiles/CopyFile	2639ba00576c44c9
+531	673	1661811306757067841	bin/TheSecondExecutable	c513ee92f02ddf17
+1	3936	1661811428617810046	src4/CMakeFiles/TheFouthExecutable.dir/main.o	ddd8dd0a978c4d42
+2	535	1661811306617066994	src3/CMakeFiles/TheThirdExecutable.dir/main.o	e067fb9bce86f2aa
+1	531	1661811306613066970	src2/CMakeFiles/TheSecondExecutable.dir/main.o	a8a7c611d9ecee37
+540	657	1661811306741067745	bin/TheExecutable	6a63b0cb8e2a5ddd
+4	190	1661811306217064573	src4/library/CMakeFiles/TheSecondLibrary.dir/testfunction.o	fe5e485956f080e9
+535	650	1661811306733067696	bin/TheThirdExecutable	2e833e9d2cd0a169
+2	133	1661811306217064573	src3/library/CMakeFiles/TheLibrary.dir/testfunction.o	4230b95ce7b47af9
+1	190	1661811306217064573	src2/CMakeFiles/TheSecondExecutable.dir/testfunction.o	1d11a545837594d0
+3936	4151	1661811428849811467	bin/TheFouthExecutable	9efc7fb9f22ed765

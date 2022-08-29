@@ -11,7 +11,7 @@
 int main()
 {
     
-    std::ifstream inputFileStream("inpu.json");
+    std::ifstream inputFileStream("input.json");
     nlohmann::json InputJson;
 
     inputFileStream >> InputJson;
@@ -19,5 +19,5 @@ int main()
     double  TestNumber = InputJson["data"].get<double>();;
 
     std::cout << "Hello, Oh Cruel World\n";
-    std::cout << "The Number is: " << TestFunction(TestNumber) << std::endl;
+    std::cout << "The Number is: " << TestNumber << std::endl;
 }
